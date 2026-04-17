@@ -9,8 +9,8 @@
 
 | Name | SRN |
 |------|-----|
-| _(Your Name)_ | _(SRN)_ |
-| _(Partner Name)_ | _(SRN)_ |
+| _(T S Sathya Kiran)_ | _(PES2UG24CS547)_ |
+| _(Sushanth Bhat)_ | _(PES2UG24CS544)_ |
 
 ---
 
@@ -28,7 +28,7 @@ sudo apt install -y build-essential linux-headers-$(uname -r)
 ### Build
 
 ```bash
-git clone https://github.com/<your-username>/OS-Jackfruit.git
+git clone https://github.com/TSSathyaKiran/OS-Jackfruit.git
 cd OS-Jackfruit/boilerplate
 make
 ```
