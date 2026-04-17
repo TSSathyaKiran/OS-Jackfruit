@@ -8,16 +8,14 @@ jobs:
   smoke:
     runs-on: ubuntu-24.04
 
-    container:
-      image: fedora:latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Install build tools
         run: |
-          dnf install -y make gcc
+          sudo apt-get update
+          sudo apt-get install -y build-essential
 
       - name: Build CI-safe user-space targets
         run: make -C boilerplate ci
